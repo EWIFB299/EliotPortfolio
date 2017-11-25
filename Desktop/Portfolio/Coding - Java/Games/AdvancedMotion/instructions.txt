@@ -1,0 +1,2 @@
+Have microphone, mouse and keyboard working.
+Keep CAPSLOCK off.

@@ -1,0 +1,99 @@
+c:\users\roggenka\documents\visual studio 2012\Projects\Gui Games\Gui Games\bin\Debug\Gui Games.exe.config
+C:\Users\roggenka\Documents\Visual Studio 2012\Projects\Gui Games\Gui Games\bin\Debug\Gui Games.exe
+C:\Users\roggenka\Documents\Visual Studio 2012\Projects\Gui Games\Gui Games\bin\Debug\Gui Games.pdb
+C:\Users\roggenka\Documents\Visual Studio 2012\Projects\Gui Games\Gui Games\obj\Debug\Gui Games.csprojResolveAssemblyReference.cache
+C:\Users\roggenka\Documents\Visual Studio 2012\Projects\Gui Games\Gui Games\obj\Debug\Gui_Games.Start_Game_Form.resources
+C:\Users\roggenka\Documents\Visual Studio 2012\Projects\Gui Games\Gui Games\obj\Debug\Gui_Games.Properties.Resources.resources
+C:\Users\roggenka\Documents\Visual Studio 2012\Projects\Gui Games\Gui Games\obj\Debug\Gui Games.csproj.GenerateResource.Cache
+C:\Users\roggenka\Documents\Visual Studio 2012\Projects\Gui Games\Gui Games\obj\Debug\Gui Games.exe
+C:\Users\roggenka\Documents\Visual Studio 2012\Projects\Gui Games\Gui Games\obj\Debug\Gui Games.pdb
+C:\Users\Terry\Desktop\Gui Games\Gui Games\bin\Debug\Gui Games.exe.config
+C:\Users\Terry\Desktop\Gui Games\Gui Games\obj\Debug\Gui Games.exe
+C:\Users\Terry\Desktop\Gui Games\Gui Games\obj\Debug\Gui Games.pdb
+C:\Users\Terry\Desktop\201\Gui Games\Gui Games\bin\Debug\Gui Games.exe.config
+C:\Users\Terry\Desktop\201\Gui Games\Gui Games\obj\Debug\Gui Games.exe
+C:\Users\Terry\Desktop\201\Gui Games\Gui Games\obj\Debug\Gui Games.pdb
+C:\Users\Terry\Desktop\201\Gui Games\Gui Games\bin\Debug\Gui Games.exe
+C:\Users\Terry\Desktop\201\Gui Games\Gui Games\bin\Debug\Gui Games.pdb
+C:\Users\Terry\Desktop\201\Gui Games\Gui Games\obj\Debug\Gui_Games.Start_Game_Form.resources
+C:\Users\Terry\Desktop\201\Gui Games\Gui Games\obj\Debug\Gui_Games.Properties.Resources.resources
+C:\Users\Terry\Desktop\201\Gui Games\Gui Games\obj\Debug\Gui Games.csproj.GenerateResource.Cache
+C:\Users\n9185691\Desktop\Gui GamesV2\Gui Games\bin\Debug\Gui Games.exe.config
+C:\Users\n9185691\Desktop\Gui GamesV2\Gui Games\obj\Debug\Gui Games.exe
+C:\Users\n9185691\Desktop\Gui GamesV2\Gui Games\obj\Debug\Gui Games.pdb
+C:\Users\n9185691\Desktop\Gui GamesV2\Gui Games\bin\Debug\Gui Games.exe
+C:\Users\n9185691\Desktop\Gui GamesV2\Gui Games\bin\Debug\Gui Games.pdb
+C:\Users\n9185691\Desktop\Gui GamesV2\Gui Games\obj\Debug\Gui Games.csprojResolveAssemblyReference.cache
+C:\Users\n9185691\Desktop\Gui GamesV2\Gui Games\obj\Debug\Gui_Games.Start_Game_Form.resources
+C:\Users\n9185691\Desktop\Gui GamesV2\Gui Games\obj\Debug\Gui_Games.Properties.Resources.resources
+C:\Users\n9185691\Desktop\Gui GamesV2\Gui Games\obj\Debug\Gui Games.csproj.GenerateResource.Cache
+D:\40 Versions\Gui GamesV3\Gui Games\bin\Debug\Gui Games.exe.config
+D:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui Games.exe
+D:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui Games.pdb
+D:\40 Versions\Gui GamesV3\Gui Games\bin\Debug\Gui Games.exe
+D:\40 Versions\Gui GamesV3\Gui Games\bin\Debug\Gui Games.pdb
+D:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui Games.csprojResolveAssemblyReference.cache
+D:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.ChooseSuitForm.resources
+D:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.Crazy_Eights_Form.resources
+D:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.SolitaireForm.resources
+D:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.Start_Game_Form.resources
+D:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.Properties.Resources.resources
+D:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui Games.csproj.GenerateResource.Cache
+D:\40 Versions\Gui GamesV3\Gui Games\bin\Debug\Game_Class_Library.dll
+D:\40 Versions\Gui GamesV3\Gui Games\bin\Debug\Game_Class_Library.pdb
+H:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.ChooseSuitForm.resources
+H:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.Crazy_Eights_Form.resources
+H:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.SolitaireForm.resources
+H:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.Start_Game_Form.resources
+H:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.Properties.Resources.resources
+H:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui Games.csproj.GenerateResource.Cache
+H:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui Games.csprojResolveAssemblyReference.cache
+H:\40 Versions\Gui GamesV3\Gui Games\bin\Debug\Gui Games.exe.config
+H:\40 Versions\Gui GamesV3\Gui Games\bin\Debug\Gui Games.exe
+H:\40 Versions\Gui GamesV3\Gui Games\bin\Debug\Gui Games.pdb
+H:\40 Versions\Gui GamesV3\Gui Games\bin\Debug\Game_Class_Library.dll
+H:\40 Versions\Gui GamesV3\Gui Games\bin\Debug\Shared Game Class Library.dll
+H:\40 Versions\Gui GamesV3\Gui Games\bin\Debug\Game_Class_Library.pdb
+H:\40 Versions\Gui GamesV3\Gui Games\bin\Debug\Shared Game Class Library.pdb
+H:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui Games.exe
+H:\40 Versions\Gui GamesV3\Gui Games\obj\Debug\Gui Games.pdb
+D:\40 Versions\Gui GamesV3\Gui Games\bin\Debug\Shared Game Class Library.dll
+D:\40 Versions\Gui GamesV3\Gui Games\bin\Debug\Shared Game Class Library.pdb
+H:\Gui GamesV3\Gui Games\bin\Debug\Gui Games.exe.config
+H:\Gui GamesV3\Gui Games\bin\Debug\Gui Games.exe
+H:\Gui GamesV3\Gui Games\bin\Debug\Gui Games.pdb
+H:\Gui GamesV3\Gui Games\bin\Debug\Game_Class_Library.dll
+H:\Gui GamesV3\Gui Games\bin\Debug\Shared Game Class Library.dll
+H:\Gui GamesV3\Gui Games\bin\Debug\Game_Class_Library.pdb
+H:\Gui GamesV3\Gui Games\bin\Debug\Shared Game Class Library.pdb
+H:\Gui GamesV3\Gui Games\obj\Debug\Gui Games.csprojResolveAssemblyReference.cache
+H:\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.ChooseSuitForm.resources
+H:\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.Crazy_Eights_Form.resources
+H:\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.SolitaireForm.resources
+H:\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.Start_Game_Form.resources
+H:\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.Properties.Resources.resources
+H:\Gui GamesV3\Gui Games\obj\Debug\Gui Games.csproj.GenerateResource.Cache
+H:\Gui GamesV3\Gui Games\obj\Debug\Gui Games.exe
+H:\Gui GamesV3\Gui Games\obj\Debug\Gui Games.pdb
+F:\Gui GamesV3\Gui Games\bin\Debug\Gui Games.exe.config
+F:\Gui GamesV3\Gui Games\obj\Debug\Gui Games.exe
+F:\Gui GamesV3\Gui Games\obj\Debug\Gui Games.pdb
+D:\Gui GamesV3\Gui Games\bin\Debug\Gui Games.exe.config
+D:\Gui GamesV3\Gui Games\obj\Debug\Gui Games.exe
+D:\Gui GamesV3\Gui Games\obj\Debug\Gui Games.pdb
+D:\Gui GamesV3\Gui Games\bin\Debug\Gui Games.exe
+D:\Gui GamesV3\Gui Games\bin\Debug\Gui Games.pdb
+D:\Gui GamesV3\Gui Games\bin\Debug\Game_Class_Library.dll
+D:\Gui GamesV3\Gui Games\bin\Debug\Shared Game Class Library.dll
+D:\Gui GamesV3\Gui Games\bin\Debug\Game_Class_Library.pdb
+D:\Gui GamesV3\Gui Games\bin\Debug\Shared Game Class Library.pdb
+D:\Gui GamesV3\Gui Games\obj\Debug\Gui Games.csprojResolveAssemblyReference.cache
+D:\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.ChooseSuitForm.resources
+D:\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.Crazy_Eights_Form.resources
+D:\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.SolitaireForm.resources
+D:\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.Start_Game_Form.resources
+D:\Gui GamesV3\Gui Games\obj\Debug\Gui_Games.Properties.Resources.resources
+D:\Gui GamesV3\Gui Games\obj\Debug\Gui Games.csproj.GenerateResource.Cache
+D:\Gui Games\Gui Games\bin\Debug\Gui Games.exe.config
+D:\Gui Games\Gui Games\obj\Debug\Gui Games.exe
+D:\Gui Games\Gui Games\obj\Debug\Gui Games.pdb

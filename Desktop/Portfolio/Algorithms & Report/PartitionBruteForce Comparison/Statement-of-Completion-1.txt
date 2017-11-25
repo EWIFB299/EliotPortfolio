@@ -1,0 +1,7 @@
+As the students working on this report, we believe the work for completion was split evenly and fairly.
+
+Eliot Wilson
+Partition Algorithm, Report Body, Proof of Correctness, Appendix, Final Proof Read.
+
+Cosmo Gregurek
+Brute Froce Algorithm, Testing, Proof of Correctness, Appendix, Final Proof Read.

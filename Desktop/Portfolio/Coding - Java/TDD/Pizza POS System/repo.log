@@ -1,0 +1,294 @@
+* a6cccc4 : Additional Tests and Finished Assessment
+* 2f5aa26 : Updated Log Handler, Log Handler Pizza Tests, Pizza Restaurant and Restaurant Pizza Tests.
+* 74dbe5b : Updated Customer Tests and Pizza Restaraunt Class
+* d5a84ef : Updated Customer and Customer Factory classes, Updated Log Handler and Pizza Restaurant classes
+* 9ee051b : Changed Customer Test
+* 8cf548a : Refined Pizza Class and Customer Tests
+* 6d4ea39 : Wrote Customer and Customer subclasses and also wrote the Customer Factory class.
+*   69a0103 : Merge branch 'master' of https://bitbucket.org/WelcomeToTheThunderDome/cab302assessment2
+|\  
+| * 0d11cf1 : Additional Tests
+* | fb004be :  Added names to stuff I need to do
+|/  
+* d14fa0a : File creation works
+* 5791b67 : Additional Tests
+* 1b20dd8 : Upated Error notifications in GUI
+* 0543482 : GUI Almost Complete. Scroll Bar and Error Messages added
+* c74e44e : Updated GUI and Test Classes
+* 918b441 : Updated Exceptions of Restaurant, Handler and All Pizza Classes. All Pizza Classes Now Complete
+* ffb5e09 : Wrote Pizza Factory Tests
+*   6134b2b : Merge branch 'master' of https://bitbucket.org/WelcomeToTheThunderDome/cab302assessment2
+|\  
+| * 3a2e5d2 : Updated multiple classes
+| * 8cad2fb : Updated Resteraunt Class
+| * e806a5f : Updated Log Handler
+* | d5a0229 : Added tests for the Pizza Class.
+|/  
+* 04ab460 : Complete PizzaFactory Class
+* 66b2b44 : Updated Logs
+* 7517675 : Updated Pizza class and CustomerTests. Approximately 20 test to implement
+* 79ab4cf : Test Commit
+* 91a3f0f : Reversed accidental commit
+* f1c7172 : Additional Tests and Pizza Class Completion
+* 6c5fa8b : Began Toppings Price Foundation
+* e09e3ac : Your Message
+* 45ae1ce : Your Message
+* 698b3f9 : Your Message
+* 838f7df : Your Message
+*   5c6d5ae : I did a thing
+|\  
+| * fd6f2c7 : Your Message
+* | 865d6a2 : I did a thing
+|/  
+* 954c146 : Wassuo
+* 0762901 : Your Message
+* 66ef375 : Your Message
+* 14a8e96 : Initial commit
+* 5b2204b : Initial commitcommit a6cccc48df131b05573320d33649289f9b1d7982
+Author: Eliot <eliotw36@gmail.com>
+Date:   Wed May 31 12:48:06 2017 +1000
+
+    Additional Tests and Finished Assessment
+
+commit 2f5aa2649a2910a5d9f2648df31098b3549f6f9f
+Author: DESKTOP-TDLDOS5\Fred <dr.t.gamage@gmail.com>
+Date:   Wed May 31 01:40:25 2017 +1000
+
+    Updated Log Handler, Log Handler Pizza Tests, Pizza Restaurant and Restaurant Pizza Tests.
+
+commit 74dbe5ba08369ec442ba72a2ee7814c038128568
+Author: Eliot <eliotw36@gmail.com>
+Date:   Tue May 30 17:33:54 2017 +1000
+
+    Updated Customer Tests and Pizza Restaraunt Class
+
+commit d5a84efaf7c4ea851a6e8754a7b293ff7cf94b13
+Author: DESKTOP-TDLDOS5\Fred <dr.t.gamage@gmail.com>
+Date:   Tue May 30 16:25:10 2017 +1000
+
+    Updated Customer and Customer Factory classes, Updated Log Handler and Pizza Restaurant classes
+
+commit 9ee051bc6db727fcc96cd8f0978c6700791509d6
+Author: Eliot <eliotw36@gmail.com>
+Date:   Tue May 30 12:52:32 2017 +1000
+
+    Changed Customer Test
+
+commit 8cf548a8f6e96f9b9b1dc944bfcaadddc9ad7a82
+Author: Eliot <eliotw36@gmail.com>
+Date:   Tue May 30 12:42:48 2017 +1000
+
+    Refined Pizza Class and Customer Tests
+
+commit 6d4ea3925ad0ab1821a63688b4da7550739398ad
+Author: DESKTOP-TDLDOS5\Fred <dr.t.gamage@gmail.com>
+Date:   Tue May 30 00:28:44 2017 +1000
+
+    Wrote Customer and Customer subclasses and also wrote the Customer Factory class.
+
+commit 69a0103c470d4c081cd6aace1902b041284ff5e0
+Merge: fb004be 0d11cf1
+Author: DESKTOP-TDLDOS5\Fred <dr.t.gamage@gmail.com>
+Date:   Mon May 29 17:57:12 2017 +1000
+
+    Merge branch 'master' of https://bitbucket.org/WelcomeToTheThunderDome/cab302assessment2
+
+commit fb004be429baeba8d4d5b764aa00a6f43e6a0920
+Author: DESKTOP-TDLDOS5\Fred <dr.t.gamage@gmail.com>
+Date:   Mon May 29 17:56:31 2017 +1000
+
+     Added names to stuff I need to do
+
+commit 0d11cf11c786031349cacf209f729fc7c3c71e0d
+Author: Eliot <eliotw36@gmail.com>
+Date:   Mon May 29 17:16:16 2017 +1000
+
+    Additional Tests
+
+commit d14fa0a53c65475670758c5182468ce29b50f512
+Author: Eliot <eliotw36@gmail.com>
+Date:   Sat May 27 19:26:54 2017 +1000
+
+    File creation works
+
+commit 5791b67d859c5906f0ece6304d3e216439baaca2
+Author: Eliot <eliotw36@gmail.com>
+Date:   Sat May 27 13:43:45 2017 +1000
+
+    Additional Tests
+
+commit 1b20dd8ed3dec3af4ae7f536866039a3dc3e360b
+Author: Eliot <eliotw36@gmail.com>
+Date:   Tue May 23 19:47:25 2017 +1000
+
+    Upated Error notifications in GUI
+
+commit 054348296ee09d3f8b6a3a0addf7831818d9a659
+Author: Eliot <eliotw36@gmail.com>
+Date:   Tue May 23 10:24:35 2017 +1000
+
+    GUI Almost Complete. Scroll Bar and Error Messages added
+
+commit c74e44e190e95ec82aad83195fe98c2a72f3525c
+Author: Eliot <eliotw36@gmail.com>
+Date:   Sat May 20 22:21:01 2017 +1000
+
+    Updated GUI and Test Classes
+
+commit 918b4412ed334f8b7a5b85f31b500d3dd5bdd781
+Author: Eliot <eliotw36@gmail.com>
+Date:   Tue May 16 10:31:58 2017 +1000
+
+    Updated Exceptions of Restaurant, Handler and All Pizza Classes. All Pizza Classes Now Complete
+
+commit ffb5e09b9934bfe6ab8f430c3c55114a27e52ee6
+Author: DESKTOP-TDLDOS5\Fred <dr.t.gamage@gmail.com>
+Date:   Sun May 14 23:20:43 2017 +1000
+
+    Wrote Pizza Factory Tests
+
+commit 6134b2bb8cb30c486ebe5f12f834b01c01cfe9bb
+Merge: d5a0229 3a2e5d2
+Author: DESKTOP-TDLDOS5\Fred <dr.t.gamage@gmail.com>
+Date:   Sun May 14 22:41:56 2017 +1000
+
+    Merge branch 'master' of https://bitbucket.org/WelcomeToTheThunderDome/cab302assessment2
+
+commit d5a0229937b82e71756e1b1986a3cb70b284e778
+Author: DESKTOP-TDLDOS5\Fred <dr.t.gamage@gmail.com>
+Date:   Sun May 14 22:41:39 2017 +1000
+
+    Added tests for the Pizza Class.
+
+commit 3a2e5d2635bcec62f451d34788f4c77d4aa29a77
+Author: Eliot <eliotw36@gmail.com>
+Date:   Sat May 13 22:14:40 2017 +1000
+
+    Updated multiple classes
+
+commit 8cad2fb36753fc3c58844dd7aa6f75c34403eef4
+Author: Eliot <eliotw36@gmail.com>
+Date:   Fri May 12 18:56:00 2017 +1000
+
+    Updated Resteraunt Class
+
+commit e806a5fd06b2a7d5d13fcb8176238ecfd2bd1e45
+Author: Eliot <eliotw36@gmail.com>
+Date:   Fri May 12 18:26:52 2017 +1000
+
+    Updated Log Handler
+
+commit 04ab4600dc221bbc90a7a6c55800ce95a8f9e665
+Author: Eliot <eliotw36@gmail.com>
+Date:   Fri May 12 17:40:45 2017 +1000
+
+    Complete PizzaFactory Class
+
+commit 66b2b4499d59190430b83dc8b3f0672b68a73aa8
+Author: Eliot <eliotw36@gmail.com>
+Date:   Fri May 12 17:15:45 2017 +1000
+
+    Updated Logs
+
+commit 7517675c65dd7d4cfcd3113f4b460a706680f273
+Author: Eliot <eliotw36@gmail.com>
+Date:   Tue May 9 10:48:20 2017 +1000
+
+    Updated Pizza class and CustomerTests. Approximately 20 test to implement
+
+commit 79ab4cfff295a085baeda9edb775cec694604b94
+Author: Eliot <eliotw36@gmail.com>
+Date:   Tue May 9 09:30:36 2017 +1000
+
+    Test Commit
+
+commit 91a3f0fa087076e432becaddfed513db5b67cf79
+Author: Eliot <eliotw36@gmail.com>
+Date:   Tue May 9 09:21:26 2017 +1000
+
+    Reversed accidental commit
+
+commit f1c71729685699ca3c4643b075fbf8b21681566f
+Author: Eliot <eliotw36@gmail.com>
+Date:   Tue May 9 09:11:12 2017 +1000
+
+    Additional Tests and Pizza Class Completion
+
+commit 6c5fa8ba61a6c9ec87267193856f23610f3210d7
+Author: Eliot <eliotw36@gmail.com>
+Date:   Tue May 2 14:11:30 2017 +1000
+
+    Began Toppings Price Foundation
+
+commit e09e3ac9f2e7be8459bf1fe81428785172c35334
+Author: Eliot <eliotw36@gmail.com>
+Date:   Tue May 2 13:24:16 2017 +1000
+
+    Your Message
+
+commit 45ae1ce6254677815e518406b38a039b1a859ee1
+Author: Eliot <eliotw36@gmail.com>
+Date:   Mon May 1 18:28:08 2017 +1000
+
+    Your Message
+
+commit 698b3f9f6a7d06be13481be3fd3dc00919521fba
+Author: Eliot <eliotw36@gmail.com>
+Date:   Mon May 1 17:26:31 2017 +1000
+
+    Your Message
+
+commit 838f7dfc2a4a2a6cbd8adb5e2df40698356b8030
+Author: Eliot <eliotw36@gmail.com>
+Date:   Mon May 1 16:19:01 2017 +1000
+
+    Your Message
+
+commit 5c6d5ae8a59aa33b9952da502271fab7571a82a4
+Merge: 865d6a2 fd6f2c7
+Author: DESKTOP-TDLDOS5\Fred <dr.t.gamage@gmail.com>
+Date:   Mon May 1 16:17:59 2017 +1000
+
+    I did a thing
+
+commit 865d6a2558e2e2511e729b0324d2ffc98ecb2d55
+Author: DESKTOP-TDLDOS5\Fred <dr.t.gamage@gmail.com>
+Date:   Mon May 1 16:12:45 2017 +1000
+
+    I did a thing
+
+commit fd6f2c7752f62539ecf342c6adc763f314ee4982
+Author: Eliot <eliotw36@gmail.com>
+Date:   Mon May 1 16:11:56 2017 +1000
+
+    Your Message
+
+commit 954c1468bfcf3f994c55187a536f0886cce2b562
+Author: DESKTOP-TDLDOS5\Fred <dr.t.gamage@gmail.com>
+Date:   Mon May 1 16:07:45 2017 +1000
+
+    Wassuo
+
+commit 0762901851399b155b678b65b07cb5b89f9f7303
+Author: Eliot <eliotw36@gmail.com>
+Date:   Mon May 1 15:51:29 2017 +1000
+
+    Your Message
+
+commit 66ef3756a2f2f1a3058df9521767be3ace981b80
+Author: Eliot <eliotw36@gmail.com>
+Date:   Mon May 1 15:30:15 2017 +1000
+
+    Your Message
+
+commit 14a8e967ee3ba022632084e117e0620553d0c877
+Author: Eliot <eliotw36@gmail.com>
+Date:   Mon May 1 12:17:16 2017 +1000
+
+    Initial commit
+
+commit 5b2204bc7889d90cd5c07d9a9f8064c28dd782ea
+Author: Eliot <eliotw36@gmail.com>
+Date:   Mon May 1 12:13:17 2017 +1000
+
+    Initial commit

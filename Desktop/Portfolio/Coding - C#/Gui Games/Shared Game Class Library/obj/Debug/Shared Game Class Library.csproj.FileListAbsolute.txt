@@ -1,0 +1,30 @@
+C:\Users\roggenka\Documents\Visual Studio 2012\Projects\Gui Games\Shared Game Class Library\bin\Debug\Shared Game Class Library.dll
+C:\Users\roggenka\Documents\Visual Studio 2012\Projects\Gui Games\Shared Game Class Library\bin\Debug\Shared Game Class Library.pdb
+C:\Users\roggenka\Documents\Visual Studio 2012\Projects\Gui Games\Shared Game Class Library\obj\Debug\Shared Game Class Library.csprojResolveAssemblyReference.cache
+C:\Users\roggenka\Documents\Visual Studio 2012\Projects\Gui Games\Shared Game Class Library\obj\Debug\Shared Game Class Library.dll
+C:\Users\roggenka\Documents\Visual Studio 2012\Projects\Gui Games\Shared Game Class Library\obj\Debug\Shared Game Class Library.pdb
+C:\Users\Terry\Desktop\201\Gui Games\Shared Game Class Library\obj\Debug\Shared Game Class Library.dll
+C:\Users\Terry\Desktop\201\Gui Games\Shared Game Class Library\obj\Debug\Shared Game Class Library.pdb
+C:\Users\Terry\Desktop\201\Gui Games\Shared Game Class Library\bin\Debug\Shared Game Class Library.dll
+C:\Users\Terry\Desktop\201\Gui Games\Shared Game Class Library\bin\Debug\Shared Game Class Library.pdb
+H:\40 Versions\Gui GamesV3\Shared Game Class Library\bin\Debug\Shared Game Class Library.dll
+H:\40 Versions\Gui GamesV3\Shared Game Class Library\bin\Debug\Shared Game Class Library.pdb
+H:\40 Versions\Gui GamesV3\Shared Game Class Library\bin\Debug\Game_Class_Library.dll
+H:\40 Versions\Gui GamesV3\Shared Game Class Library\bin\Debug\Game_Class_Library.pdb
+H:\40 Versions\Gui GamesV3\Shared Game Class Library\obj\Debug\Shared Game Class Library.dll
+H:\40 Versions\Gui GamesV3\Shared Game Class Library\obj\Debug\Shared Game Class Library.pdb
+H:\40 Versions\Gui GamesV3\Shared Game Class Library\obj\Debug\Shared Game Class Library.csprojResolveAssemblyReference.cache
+D:\40 Versions\Gui GamesV3\Shared Game Class Library\bin\Debug\Shared Game Class Library.dll
+D:\40 Versions\Gui GamesV3\Shared Game Class Library\bin\Debug\Shared Game Class Library.pdb
+D:\40 Versions\Gui GamesV3\Shared Game Class Library\obj\Debug\Shared Game Class Library.csprojResolveAssemblyReference.cache
+D:\40 Versions\Gui GamesV3\Shared Game Class Library\obj\Debug\Shared Game Class Library.dll
+D:\40 Versions\Gui GamesV3\Shared Game Class Library\obj\Debug\Shared Game Class Library.pdb
+D:\40 Versions\Gui GamesV3\Shared Game Class Library\bin\Debug\Game_Class_Library.dll
+D:\40 Versions\Gui GamesV3\Shared Game Class Library\bin\Debug\Game_Class_Library.pdb
+H:\Gui GamesV3\Shared Game Class Library\bin\Debug\Shared Game Class Library.dll
+H:\Gui GamesV3\Shared Game Class Library\bin\Debug\Shared Game Class Library.pdb
+H:\Gui GamesV3\Shared Game Class Library\obj\Debug\Shared Game Class Library.dll
+H:\Gui GamesV3\Shared Game Class Library\obj\Debug\Shared Game Class Library.pdb
+H:\Gui GamesV3\Shared Game Class Library\bin\Debug\Game_Class_Library.dll
+H:\Gui GamesV3\Shared Game Class Library\bin\Debug\Game_Class_Library.pdb
+H:\Gui GamesV3\Shared Game Class Library\obj\Debug\Shared Game Class Library.csprojResolveAssemblyReference.cache

@@ -1,0 +1,27 @@
+c:\users\roggenka\documents\visual studio 2012\Projects\Currency Convertor GUI\Currency Convertor GUI\bin\Debug\Currency Convertor GUI.exe.config
+c:\users\roggenka\documents\visual studio 2012\Projects\Currency Convertor GUI\Currency Convertor GUI\bin\Debug\Currency Convertor GUI.exe
+c:\users\roggenka\documents\visual studio 2012\Projects\Currency Convertor GUI\Currency Convertor GUI\bin\Debug\Currency Convertor GUI.pdb
+c:\users\roggenka\documents\visual studio 2012\Projects\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency Convertor GUI.csprojResolveAssemblyReference.cache
+c:\users\roggenka\documents\visual studio 2012\Projects\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency_Convertor_GUI.Form1.resources
+c:\users\roggenka\documents\visual studio 2012\Projects\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency_Convertor_GUI.Properties.Resources.resources
+c:\users\roggenka\documents\visual studio 2012\Projects\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency Convertor GUI.csproj.GenerateResource.Cache
+c:\users\roggenka\documents\visual studio 2012\Projects\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency Convertor GUI.exe
+c:\users\roggenka\documents\visual studio 2012\Projects\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency Convertor GUI.pdb
+C:\Users\roggenka\Desktop\CAB201\2015 Semester 1\Assisgnment\Third\Currency Convertor GUI\Currency Convertor GUI\bin\Debug\Currency Convertor GUI.exe.config
+C:\Users\roggenka\Desktop\CAB201\2015 Semester 1\Assisgnment\Third\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency Convertor GUI.exe
+C:\Users\roggenka\Desktop\CAB201\2015 Semester 1\Assisgnment\Third\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency Convertor GUI.pdb
+C:\Users\roggenka\Desktop\CAB201\2015 Semester 1\Assisgnment\Third\Currency Convertor GUI\Currency Convertor GUI\bin\Debug\Currency Convertor GUI.exe
+C:\Users\roggenka\Desktop\CAB201\2015 Semester 1\Assisgnment\Third\Currency Convertor GUI\Currency Convertor GUI\bin\Debug\Currency Convertor GUI.pdb
+C:\Users\roggenka\Desktop\CAB201\2015 Semester 1\Assisgnment\Third\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency Convertor GUI.csprojResolveAssemblyReference.cache
+C:\Users\roggenka\Desktop\CAB201\2015 Semester 1\Assisgnment\Third\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency_Convertor_GUI.Form1.resources
+C:\Users\roggenka\Desktop\CAB201\2015 Semester 1\Assisgnment\Third\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency_Convertor_GUI.Properties.Resources.resources
+C:\Users\roggenka\Desktop\CAB201\2015 Semester 1\Assisgnment\Third\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency Convertor GUI.csproj.GenerateResource.Cache
+C:\Users\Terry\Desktop\Currency Convertor GUI(1)\Currency Convertor GUI\Currency Convertor GUI\bin\Debug\Currency Convertor GUI.exe.config
+C:\Users\Terry\Desktop\Currency Convertor GUI(1)\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency Convertor GUI.exe
+C:\Users\Terry\Desktop\Currency Convertor GUI(1)\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency Convertor GUI.pdb
+C:\Users\Terry\Desktop\Currency Convertor GUI(1)\Currency Convertor GUI\Currency Convertor GUI\bin\Debug\Currency Convertor GUI.exe
+C:\Users\Terry\Desktop\Currency Convertor GUI(1)\Currency Convertor GUI\Currency Convertor GUI\bin\Debug\Currency Convertor GUI.pdb
+C:\Users\Terry\Desktop\Currency Convertor GUI(1)\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency Convertor GUI.csprojResolveAssemblyReference.cache
+C:\Users\Terry\Desktop\Currency Convertor GUI(1)\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency_Convertor_GUI.Form1.resources
+C:\Users\Terry\Desktop\Currency Convertor GUI(1)\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency_Convertor_GUI.Properties.Resources.resources
+C:\Users\Terry\Desktop\Currency Convertor GUI(1)\Currency Convertor GUI\Currency Convertor GUI\obj\Debug\Currency Convertor GUI.csproj.GenerateResource.Cache

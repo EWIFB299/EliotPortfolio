@@ -1,0 +1,292 @@
+   1               		.file	"setup.c"
+   2               	__SREG__ = 0x3f
+   3               	__SP_H__ = 0x3e
+   4               	__SP_L__ = 0x3d
+   5               	__CCP__  = 0x34
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+  15               	.Ltext0:
+  16               		.data
+  17               	.LC0:
+  18 0000 5A6F 6D62 		.string	"Zombie"
+  18      6965 00
+  19               	.LC1:
+  20 0007 4665 6172 		.string	"Fear the Humans!"
+  20      2074 6865 
+  20      2048 756D 
+  20      616E 7321 
+  20      00
+  21               	.LC2:
+  22 0018 4561 7379 		.string	"Easy"
+  22      00
+  23               	.LC3:
+  24 001d 4861 7264 		.string	"Hard"
+  24      00
+  25               	.LC4:
+  26 0022 456C 696F 		.string	"Eliot Wilson"
+  26      7420 5769 
+  26      6C73 6F6E 
+  26      00
+  27               	.LC5:
+  28 002f 6E39 3137 		.string	"n9175504"
+  28      3535 3034 
+  28      00
+  29               	.LC6:
+  30 0038 3300      		.string	"3"
+  31               	.LC7:
+  32 003a 3200      		.string	"2"
+  33               	.LC8:
+  34 003c 3100      		.string	"1"
+  35               		.section	.text.title_screen,"ax",@progbits
+  36               	.global	title_screen
+  38               	title_screen:
+  39               	.LFB7:
+  40               	.LSM0:
+  41               	/* prologue: function */
+  42               	/* frame size = 0 */
+  43               	.LSM1:
+  44 0000 1092 0000 		sts (stage)+1,__zero_reg__
+  45 0004 1092 0000 		sts stage,__zero_reg__
+  46               	.LSM2:
+  47 0008 81E0      		ldi r24,lo8(1)
+  48 000a 90E0      		ldi r25,hi8(1)
+  49 000c 9093 0000 		sts (choice)+1,r25
+  50 0010 8093 0000 		sts choice,r24
+  51               	.LSM3:
+  52 0014 1092 0000 		sts (chosen)+1,__zero_reg__
+  53 0018 1092 0000 		sts chosen,__zero_reg__
+  54               	.LSM4:
+  55 001c 0E94 0000 		call clear
+  56               	.LSM5:
+  57 0020 80E0      		ldi r24,lo8(.LC0)
+  58 0022 90E0      		ldi r25,hi8(.LC0)
+  59 0024 69E1      		ldi r22,lo8(25)
+  60 0026 40E0      		ldi r20,lo8(0)
+  61 0028 0E94 0000 		call draw_string
+  62               	.LSM6:
+  63 002c 80E0      		ldi r24,lo8(.LC1)
+  64 002e 90E0      		ldi r25,hi8(.LC1)
+  65 0030 60E0      		ldi r22,lo8(0)
+  66 0032 4AE0      		ldi r20,lo8(10)
+  67 0034 0E94 0000 		call draw_string
+  68               	.LSM7:
+  69 0038 8AE2      		ldi r24,lo8(42)
+  70 003a 60E0      		ldi r22,lo8(0)
+  71 003c 44E1      		ldi r20,lo8(20)
+  72 003e 0E94 0000 		call draw_character
+  73               	.LSM8:
+  74 0042 80E0      		ldi r24,lo8(.LC2)
+  75 0044 90E0      		ldi r25,hi8(.LC2)
+  76 0046 66E0      		ldi r22,lo8(6)
+  77 0048 44E1      		ldi r20,lo8(20)
+  78 004a 0E94 0000 		call draw_string
+  79               	.LSM9:
+  80 004e 80E0      		ldi r24,lo8(.LC3)
+  81 0050 90E0      		ldi r25,hi8(.LC3)
+  82 0052 68E2      		ldi r22,lo8(40)
+  83 0054 44E1      		ldi r20,lo8(20)
+  84 0056 0E94 0000 		call draw_string
+  85               	.LSM10:
+  86 005a 80E0      		ldi r24,lo8(.LC4)
+  87 005c 90E0      		ldi r25,hi8(.LC4)
+  88 005e 60E0      		ldi r22,lo8(0)
+  89 0060 4EE1      		ldi r20,lo8(30)
+  90 0062 0E94 0000 		call draw_string
+  91               	.LSM11:
+  92 0066 80E0      		ldi r24,lo8(.LC5)
+  93 0068 90E0      		ldi r25,hi8(.LC5)
+  94 006a 60E0      		ldi r22,lo8(0)
+  95 006c 48E2      		ldi r20,lo8(40)
+  96 006e 0E94 0000 		call draw_string
+  97               	.LSM12:
+  98 0072 0E94 0000 		call refresh
+  99               	.L2:
+ 100               	.LSM13:
+ 101 0076 8091 0000 		lds r24,chosen
+ 102 007a 9091 0000 		lds r25,(chosen)+1
+ 103 007e 892B      		or r24,r25
+ 104 0080 01F0      		breq .L2
+ 105               	.LSM14:
+ 106 0082 0E94 0000 		call clear
+ 107               	.LSM15:
+ 108 0086 80E0      		ldi r24,lo8(.LC6)
+ 109 0088 90E0      		ldi r25,hi8(.LC6)
+ 110 008a 68E2      		ldi r22,lo8(40)
+ 111 008c 44E1      		ldi r20,lo8(20)
+ 112 008e 0E94 0000 		call draw_string
+ 113               	.LSM16:
+ 114 0092 0E94 0000 		call refresh
+ 115 0096 80E1      		ldi r24,lo8(10000)
+ 116 0098 97E2      		ldi r25,hi8(10000)
+ 117               	.LVL0:
+ 118               	.LBB24:
+ 119               	.LBB25:
+ 120               	.LBB26:
+ 121               	.LBB27:
+ 122               	.LSM17:
+ 123 009a 28EC      		ldi r18,lo8(200)
+ 124 009c 30E0      		ldi r19,hi8(200)
+ 125               	.L3:
+ 126 009e F901      		movw r30,r18
+ 127               	.LVL1:
+ 128               	/* #APP */
+ 129               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
+ 130 00a0 3197      		1: sbiw r30,1
+ 131 00a2 01F4      		brne 1b
+ 132               	 ;  0 "" 2
+ 133               	/* #NOAPP */
+ 134               	.LBE27:
+ 135               	.LBE26:
+ 136               	.LSM18:
+ 137 00a4 0197      		sbiw r24,1
+ 138               	.LSM19:
+ 139 00a6 01F4      		brne .L3
+ 140               	.LBE25:
+ 141               	.LBE24:
+ 142               	.LSM20:
+ 143 00a8 0E94 0000 		call clear
+ 144               	.LVL2:
+ 145               	.LSM21:
+ 146 00ac 80E0      		ldi r24,lo8(.LC7)
+ 147 00ae 90E0      		ldi r25,hi8(.LC7)
+ 148 00b0 68E2      		ldi r22,lo8(40)
+ 149 00b2 44E1      		ldi r20,lo8(20)
+ 150 00b4 0E94 0000 		call draw_string
+ 151               	.LSM22:
+ 152 00b8 0E94 0000 		call refresh
+ 153 00bc 80E1      		ldi r24,lo8(10000)
+ 154 00be 97E2      		ldi r25,hi8(10000)
+ 155               	.LVL3:
+ 156               	.LBB28:
+ 157               	.LBB29:
+ 158               	.LBB30:
+ 159               	.LBB31:
+ 160               	.LSM23:
+ 161 00c0 28EC      		ldi r18,lo8(200)
+ 162 00c2 30E0      		ldi r19,hi8(200)
+ 163               	.L4:
+ 164 00c4 F901      		movw r30,r18
+ 165               	.LVL4:
+ 166               	/* #APP */
+ 167               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
+ 168 00c6 3197      		1: sbiw r30,1
+ 169 00c8 01F4      		brne 1b
+ 170               	 ;  0 "" 2
+ 171               	/* #NOAPP */
+ 172               	.LBE31:
+ 173               	.LBE30:
+ 174               	.LSM24:
+ 175 00ca 0197      		sbiw r24,1
+ 176               	.LSM25:
+ 177 00cc 01F4      		brne .L4
+ 178               	.LBE29:
+ 179               	.LBE28:
+ 180               	.LSM26:
+ 181 00ce 0E94 0000 		call clear
+ 182               	.LVL5:
+ 183               	.LSM27:
+ 184 00d2 80E0      		ldi r24,lo8(.LC8)
+ 185 00d4 90E0      		ldi r25,hi8(.LC8)
+ 186 00d6 68E2      		ldi r22,lo8(40)
+ 187 00d8 44E1      		ldi r20,lo8(20)
+ 188 00da 0E94 0000 		call draw_string
+ 189               	.LSM28:
+ 190 00de 0E94 0000 		call refresh
+ 191 00e2 80E1      		ldi r24,lo8(10000)
+ 192 00e4 97E2      		ldi r25,hi8(10000)
+ 193               	.LVL6:
+ 194               	.LBB32:
+ 195               	.LBB33:
+ 196               	.LBB34:
+ 197               	.LBB35:
+ 198               	.LSM29:
+ 199 00e6 28EC      		ldi r18,lo8(200)
+ 200 00e8 30E0      		ldi r19,hi8(200)
+ 201               	.L5:
+ 202 00ea F901      		movw r30,r18
+ 203               	.LVL7:
+ 204               	/* #APP */
+ 205               	 ;  105 "c:/winavr-20100110/lib/gcc/../../avr/include/util/delay_basic.h" 1
+ 206 00ec 3197      		1: sbiw r30,1
+ 207 00ee 01F4      		brne 1b
+ 208               	 ;  0 "" 2
+ 209               	/* #NOAPP */
+ 210               	.LBE35:
+ 211               	.LBE34:
+ 212               	.LSM30:
+ 213 00f0 0197      		sbiw r24,1
+ 214               	.LSM31:
+ 215 00f2 01F4      		brne .L5
+ 216               	.LBE33:
+ 217               	.LBE32:
+ 218               	.LSM32:
+ 219 00f4 81E0      		ldi r24,lo8(1)
+ 220 00f6 90E0      		ldi r25,hi8(1)
+ 221               	.LVL8:
+ 222 00f8 9093 0000 		sts (stage)+1,r25
+ 223 00fc 8093 0000 		sts stage,r24
+ 224               	.LSM33:
+ 225 0100 80E0      		ldi r24,lo8(0)
+ 226 0102 90E0      		ldi r25,hi8(0)
+ 227               	/* epilogue start */
+ 228 0104 0895      		ret
+ 229               	.LFE7:
+ 231               		.section	.text.setup_teensy,"ax",@progbits
+ 232               	.global	setup_teensy
+ 234               	setup_teensy:
+ 235               	.LFB6:
+ 236               	.LSM34:
+ 237               	/* prologue: function */
+ 238               	/* frame size = 0 */
+ 239               	.LSM35:
+ 240 0000 E1E6      		ldi r30,lo8(97)
+ 241 0002 F0E0      		ldi r31,hi8(97)
+ 242 0004 80E8      		ldi r24,lo8(-128)
+ 243 0006 8083      		st Z,r24
+ 244 0008 1082      		st Z,__zero_reg__
+ 245               	.LSM36:
+ 246 000a 8FE3      		ldi r24,lo8(63)
+ 247 000c 0E94 0000 		call LCDInitialise
+ 248               	.LSM37:
+ 249 0010 0E94 0000 		call clear
+ 250               	/* epilogue start */
+ 251               	.LSM38:
+ 252 0014 0895      		ret
+ 253               	.LFE6:
+ 255               	.global	stage
+ 256               	.global	stage
+ 257               		.section .bss
+ 260               	stage:
+ 261 0000 0000      		.skip 2,0
+ 262               	.global	choice
+ 263               		.data
+ 266               	choice:
+ 267 003e 0100      		.word	1
+ 268               	.global	chosen
+ 269               	.global	chosen
+ 270               		.section .bss
+ 273               	chosen:
+ 274 0002 0000      		.skip 2,0
+ 307               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 setup.c
+C:\cygwin\tmp/cckZsyky.s:2      *ABS*:0000003f __SREG__
+C:\cygwin\tmp/cckZsyky.s:3      *ABS*:0000003e __SP_H__
+C:\cygwin\tmp/cckZsyky.s:4      *ABS*:0000003d __SP_L__
+C:\cygwin\tmp/cckZsyky.s:5      *ABS*:00000034 __CCP__
+C:\cygwin\tmp/cckZsyky.s:6      *ABS*:00000000 __tmp_reg__
+C:\cygwin\tmp/cckZsyky.s:7      *ABS*:00000001 __zero_reg__
+C:\cygwin\tmp/cckZsyky.s:38     .text.title_screen:00000000 title_screen
+C:\cygwin\tmp/cckZsyky.s:260    .bss:00000000 stage
+C:\cygwin\tmp/cckZsyky.s:266    .data:0000003e choice
+C:\cygwin\tmp/cckZsyky.s:273    .bss:00000002 chosen
+C:\cygwin\tmp/cckZsyky.s:234    .text.setup_teensy:00000000 setup_teensy
+
+UNDEFINED SYMBOLS
+clear
+draw_string
+draw_character
+refresh
+LCDInitialise
+__do_copy_data
+__do_clear_bss

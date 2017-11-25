@@ -1,0 +1,1 @@
+To run algorithm, enter Assignment Code and open Iteration 1 in Codeblocks then click build and run.

@@ -1,0 +1,6 @@
+This is an opensource project developed as part of my final year in the QUT Information Technology Bachelor Degree.
+This was developed in conjunction with Sebastian Sherry, Jayson Turnbull and Oliver Johnson.
+
+My role was that of the primary web designer and as a system back-end developer.
+
+You can access the group repository, here: https://github.com/OliverJ20/OneGroup

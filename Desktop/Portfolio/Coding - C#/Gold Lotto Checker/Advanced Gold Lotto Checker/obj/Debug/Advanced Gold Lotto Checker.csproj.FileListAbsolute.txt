@@ -1,0 +1,33 @@
+c:\users\roggenka\documents\visual studio 2012\Projects\Gold Lotto Checker\Advanced Gold Lotto Checker\bin\Debug\Advanced Gold Lotto Checker.exe.config
+c:\users\roggenka\documents\visual studio 2012\Projects\Gold Lotto Checker\Advanced Gold Lotto Checker\bin\Debug\Advanced Gold Lotto Checker.exe
+c:\users\roggenka\documents\visual studio 2012\Projects\Gold Lotto Checker\Advanced Gold Lotto Checker\bin\Debug\Advanced Gold Lotto Checker.pdb
+c:\users\roggenka\documents\visual studio 2012\Projects\Gold Lotto Checker\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.exe
+c:\users\roggenka\documents\visual studio 2012\Projects\Gold Lotto Checker\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.pdb
+c:\users\roggenka\documents\visual studio 2012\Projects\Gold Lotto Checker\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.csprojResolveAssemblyReference.cache
+C:\Users\roggenka\Desktop\CAB201\Projects\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\bin\Debug\Advanced Gold Lotto Checker.exe.config
+C:\Users\roggenka\Desktop\CAB201\Projects\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.exe
+C:\Users\roggenka\Desktop\CAB201\Projects\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.pdb
+C:\Users\roggenka\Desktop\CAB201\Projects\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.csprojResolveAssemblyReference.cache
+C:\Users\roggenka\Desktop\CAB201\Projects\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\bin\Debug\Advanced Gold Lotto Checker.exe
+C:\Users\roggenka\Desktop\CAB201\Projects\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\bin\Debug\Advanced Gold Lotto Checker.pdb
+C:\Users\roggenka\Desktop\CAB201\2015 Semester 1\Assisgnment\Second\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\bin\Debug\Advanced Gold Lotto Checker.exe.config
+C:\Users\roggenka\Desktop\CAB201\2015 Semester 1\Assisgnment\Second\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.exe
+C:\Users\roggenka\Desktop\CAB201\2015 Semester 1\Assisgnment\Second\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.pdb
+C:\Users\Eliot\Desktop\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.csprojResolveAssemblyReference.cache
+C:\Users\Eliot\Desktop\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.exe
+C:\Users\Eliot\Desktop\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\bin\Debug\Advanced Gold Lotto Checker.exe.config
+C:\Users\Eliot\Desktop\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\bin\Debug\Advanced Gold Lotto Checker.exe
+C:\Users\Eliot\Desktop\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\bin\Debug\Advanced Gold Lotto Checker.pdb
+C:\Users\Eliot\Desktop\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.pdb
+C:\Users\Eliot\Music\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\bin\Debug\Advanced Gold Lotto Checker.exe.config
+C:\Users\Eliot\Music\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.exe
+C:\Users\Eliot\Music\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.pdb
+C:\Users\Eliot\Music\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\bin\Debug\Advanced Gold Lotto Checker.exe
+C:\Users\Eliot\Music\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\bin\Debug\Advanced Gold Lotto Checker.pdb
+C:\Users\Eliot\Music\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.csprojResolveAssemblyReference.cache
+C:\Users\Eliot\Videos\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\bin\Debug\Advanced Gold Lotto Checker.exe.config
+C:\Users\Eliot\Videos\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.exe
+C:\Users\Eliot\Videos\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.pdb
+C:\Users\Eliot\Videos\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\bin\Debug\Advanced Gold Lotto Checker.exe
+C:\Users\Eliot\Videos\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\bin\Debug\Advanced Gold Lotto Checker.pdb
+C:\Users\Eliot\Videos\Gold Lotto Checker Skeleton\Advanced Gold Lotto Checker\obj\Debug\Advanced Gold Lotto Checker.csprojResolveAssemblyReference.cache
