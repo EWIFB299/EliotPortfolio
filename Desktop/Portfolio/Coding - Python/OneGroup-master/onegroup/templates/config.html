@@ -1,0 +1,70 @@
+{% extends "layout.html" %}
+{% block body %}
+    <body>
+        <div class="contentDiv" width="100%">
+            <div class="bodydiv" id="SecPolicy">
+                {% if nodes != -1 %}
+                    <form action="" method=post>
+                        <select name="node1">
+                            {# <option value="" selected disabled>-- Select --</option> #}
+                            {% for node in nodes %}
+                                <option value="{{ node["ID"] }}" {% if node["ID"] == nodeID['ID'] %}selected{% endif %}>{{ node["Name"] }}</option>
+                            {% endfor %}                    	
+                        </select>
+
+                        <div class= "bodydiv" id = "submitDiv">
+                            <input type="submit" name="nodeSub1" value="Send"></input>
+                        </div> 
+                    </form>
+                {% endif %}
+		
+                {% if firewall != -1 %} 
+                    <h2>Security Policy {% if nodeID != -1 %} for {{ nodeID['Name'] }} {% endif %}</h2>
+                    <a href="{{ url_for('iptable_form', nid = '-1', ruleid = '-1') }}"><button> Add Rule</button></a>
+                    <br  />
+		    <table>
+                        <tr>
+                            <th>IP Table Policy Rules</th>
+                            <th>Rule Actions</th>
+                        </tr>
+                        {% for rule in firewall if rule['Policy'] == 1 %}
+                            <tr>
+                                <td>iptables -P {{ rule['Rule'] }}</td>   
+                                <td style="align:right;width:100px">
+                                    <a href="/iptables/{% if nodes == -1 %}-1/{% else %}{{ nodeID['ID'] }}/{% endif %}{{rule['ID']}}">
+                                        <button class="button-wide">EDIT</button>
+                                    </a>
+                                </td>
+                            </tr> 
+                        {% endfor %} 
+                    </table>
+		    <br  />
+                    <table>
+                        <tr>
+                            <th>IP Table Standard Rules</th>
+                            <th>Rule Actions</th>
+                        </tr>
+                        {% for rule in firewall if rule['Policy'] == 0 %}
+                            <tr>
+                                <td>iptables -P {{ rule['Rule'] }}</td>   
+                                <td style="align:right;width:100px">
+                                    <a href="/iptables/{% if nodes == -1 %}-1/{% else %}{{ nodeID['ID'] }}/{% endif %}{{rule['ID']}}">
+                                        <button class="button-wide">EDIT</button>
+                                    </a>
+                                    {% if nodes == -1 %}
+                                        <a href="{{ url_for( 'iptables_delete', nid = '-1', rid = rule['ID']) }}">
+                                    {% else %}
+                                        <a href="{{ url_for( 'iptables_delete', nid = nodeID['ID'], rid = rule['ID']) }}">
+                                    {% endif %}
+                                        <button class="declineButton">DELETE</button>
+                                    </a>
+                                </td>
+                            </tr>
+                        {% endfor %} 
+                    </table>
+                {% endif %}
+            </div>
+        </div>
+    </body>
+{% endblock %}
+

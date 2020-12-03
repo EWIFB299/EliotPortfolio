@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+{% block body %}
+    <script src="{{ url_for('static', filename='d3.v3.min.js') }}"></script>
+    <body>
+        <div class="contentDiv">
+            <div id = "indexSplit">
+                <div id = "indexSplitLeft">
+		    <h2>Quick Options</h2>
+                    <a href="{{ url_for('filluserform',form='CU') }}"><button> Add Client</button></a>
+                    <br  />
+                    <a href="{{ url_for('fillgroupform',form='CG') }}"><button> Add Group</button></a>
+                    <br  />
+                    <a href="{{ url_for('iptable_form', nid = -1, ruleid = -1) }}"><button> Add Rules</button></a>
+
+		    {% if nodes %}
+		    	<h2 id= "currentNode">Node: self</h2>
+			<p>Select Node</p>
+			<select name="nodeSelect" id="node" onchange="nodeChange()">
+			{%for node in nodes%}
+				<option value="{{node["Address"]}}">{{node["Name"]}}</option>
+			{% endfor %}
+			</select> 
+		    {% endif %}
+        
+                </div>
+                <div id = "indexSplitRight">
+                        <h2 id= "currentActivity">Bytes Recieved</h2> 
+                        <img src="{{ url_for('static', filename = 'next.png') }}"
+                        width="25" height="25" onclick="changeDataType()"/>
+                </div>
+            </div>
+
+            <h2>Network Activity</h2>
+            <div id="statusTable" align="center" style="margin-top: 1%; overflow-y: scroll;">
+                    <form>
+                            
+                    </form>
+            </div>
+            <h2>Routing Activity</h2>
+            <div id="statusRouteTable" align="center" style="margin-top: 1%; overflow-y: scroll;">
+                    <form>
+                            
+                    </form>
+            </div>
+
+            <h2>Log Snapshot</h2>
+            <div id="logTableSmall" align="center" style="margin-top: 1%; overflow-y: scroll;">
+                <form>
+    
+                </form>
+            </div>
+
+        </div>
+    </body>
+{% endblock %}
+

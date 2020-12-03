@@ -1,0 +1,110 @@
+{% extends "layout.html" %}
+{% block body %}
+    <body>
+        <div class="contentDiv">
+            <h2>User Options</h2>
+            <a href="{{ url_for('filluserform',form='CU') }}"><button> Add Client</button></a>
+            <a href="{{ url_for('fillgroupform',form='CG') }}"><button> Add Group</button></a>
+        </div>
+        <center>
+            <h1> Current Users </h1>
+            <table>
+                <tr>
+                    <th>Users</th>
+                    <th>Address</th>
+                    <th>Authentication</th>
+                    <th>Connection Type</th>
+                    <th>Group</th>
+		    {% if nodes %}<th>Node</th>{% endif %}
+                    <th>Expiry</th>
+                    <th>Options</th>
+                    <th>Keys</th>
+                </tr>
+                {% if dataU != None %}
+                    {% if dataU[0] is mapping%}  
+                        {%for users in dataU%}
+                            <tr>
+                                <td>{{users["Name"]}}</td>
+                                <td>{% if users["Email"] != "" %} {{users["Email"]}} {% else %} None {% endif %}</td>
+                                <td>{{users["Auth_Type"]}}</td>
+                                <td>{{users["Account_Type"]}}</td>
+                                <td>{% if users["Grp"] != -1 %} {{users["Grp"]}} {% else %} None {% endif %}</td>
+                                {% if nodes %}<td>{% if users["Node"] != -1 %} {{users["Node"]}} {% else %} N/A {% endif %}</td>{% endif %}
+                                <td>{% if users["Expiry"] != ""%} {{users["Expiry"]}} {% else %} None {% endif %}</td>
+                                <td>
+                                    <a href="/userform/{{users["ID"]}}">
+                                        <button class = "button-table">Edit</button>
+                                    </a>
+                                    <form action="{{ url_for('delete_key', uid = users["ID"]) }}" method=post></input>
+                                        <input type="submit" value="Delete" class = "declineButton"></input>
+                                    </form>
+                                </td>
+                                <td>
+                                    <a href="/admin_key/{{users["Name"]}}" download><button class='downloadButton' id= "testButton">Download</button></a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    {% endif %}
+                {% endif %}
+              </table>
+
+            <h2>Current Requests</h2>
+
+            <div id="userReqTable" align="center" style="margin-top: 10px;">
+
+                <table>
+                  <tr>
+                      <th>Users</th>
+                      <th>Request</th>
+                      <th>Approval?</th>
+                  </tr>
+                    {% if dataR != None %}      
+                        {%for notifications in dataR %}
+                            <tr>
+                                <td>{{notifications["User"]}}</td>
+                                <td>{{notifications["Request"]}}</td>
+                                <td>
+                                    <!-- <form action="/handle_req/{{notifications["ID"]}}" method=post> -->
+                                    <form action="{{ url_for('handle_req', reqid = notifications["ID"]) }}" method=post>
+                                        <input type="submit" name="reqOption" value="Approve" id = "approveButton"></input>
+                                        <input type="submit" name="reqOption" value="Decline" class = "declineButton"></input>
+                                    </form>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    {% endif %}
+                </table>
+
+                <h2>Current Groups</h2>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        {% if nodes %}<th>Node</th>{% endif %}
+                        <th>Internal Network</th>
+                        <th>External Network</th>
+                        <th>Options</th>
+                    </tr>
+                    {% if dataG != None %}
+                        {%for members in dataG %}
+                            <tr>
+                                <td>{{members['Name']}}</td>
+                                {% if nodes %}<td>{% if members["Node"] != -1 %} {{members["Node"]}} {% else %} N/A {% endif %}</td>{% endif %}
+                                <td>{{members['Internal']}}</td>
+                                <td>{{members['External']}}</td>
+                                <td>
+                                    <a href="/groupform/{{members["ID"]}}">
+                                        <button class = "button-table">Edit</button>
+                                    </a>
+                                    <form action="{{ url_for('delete_group', gid = members["ID"]) }}" method=post>
+                                        <input type="submit" value="Delete" class = "declineButton"></input>
+                                    </form>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    {% endif %}
+                  </table>
+            </div>
+            </div>
+        </center>
+    </body>
+{% endblock %}

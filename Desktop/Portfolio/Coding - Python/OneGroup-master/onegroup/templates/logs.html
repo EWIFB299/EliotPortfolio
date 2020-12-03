@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+{% block body %}
+    <body>
+        <div class="contentDiv">
+            <div id="logSettings">
+                <h2>Log Settings</h2>
+                <div id="infoDiv">
+                    <h2>Search</h2>
+                    <form action="." name="timeStamp" id="timeBracket" onsubmit="validateForm()" method="POST">
+                        Date: <input id="dateStart" onkeyup="tableFilter()">
+                        <br  />
+                        Activity: <input type="date" id="dateEnd" name="endDate" onkeyup="tableFilter()">
+                    </form>
+                </div>
+                <div id="exportSettings">
+                    <h2>Export Settings</h2>
+                    <form action="/log_download/" name="settings" id="fileSettings" method="POST">
+                        Start: <input type="date" id="exportStart" name = "eStart">
+                        <br  />
+                        End: <input type="date" id="exportEnd" name = "eEnd">
+                        <br  />
+                        <button type="submit" id="exportSubmit" name="logExport" value="Send">Export Logs</button>
+                            <div>
+                                {% if nodes %}
+                                    <h2 id ="currentNode">Node: self</h2>
+                                    <p>Select Node</p>
+                                    <select name="nodeSelect" id="node" onchange="nodeChange(); addInfo();">
+                                    {%for node in nodes%}
+                                            <option value="{{node["Address"]}}">{{node["Name"]}}</option>
+                                        {% endfor %}
+                                    </select> 
+                                {% endif %}
+                            </div>
+                    </form>
+                </div>
+            </div>
+            <br  />
+            <br  />
+            <br  />
+            <br  />
+            <br  />
+            <br  />
+            <div id="midDiv">
+                <center>
+                </center>
+            </div>
+            {% if False %}
+            <div class="" id="previewDiv">
+            </div>
+            {% endif %}
+
+        <div id="logTable" align="center" style="margin-top: 210px; overflow-y: scroll;">
+            <form>
+
+            </form>
+        </div>
+
+        </div>
+    </body>
+
+{% endblock %}

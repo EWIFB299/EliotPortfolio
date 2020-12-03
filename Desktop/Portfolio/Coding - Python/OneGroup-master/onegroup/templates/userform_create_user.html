@@ -1,0 +1,85 @@
+{% extends "layout.html" %}
+{% block body %}
+<div id= "formDiv">        
+    <div class="contentDiv">
+        <div class= "bodydiv">
+            <div class= "bodydiv" id= "formDiveft">
+                <h2>Enter User Details</h2>
+                <!-- What account is being created !-->
+		{% if postback < 0 %} 
+		    <form action="{{ url_for('filluserform', form='AC') }}" vname="userAccount" id="detailsLeft" method=post>
+		        <p>Account Type</p>
+                        <select name="accountType1">
+			    <option disabled selected value> -- Select -- </option>
+                            <option value="Client">Client</option>
+                            <option value="Admin">Admin</option>
+                        </select>                
+
+		        <div class= "bodydiv" div id = "submitDiv">
+                          <input type="submit" name="userform1" value="OK"></input>
+                        </div>
+                    </form>
+                {% endif %}
+			
+		{% if account == "Client" %}
+                    <form action="{{ url_for('filluserform', form='AU') }}" vname="userAuthentication" id="detailsLeft" method=post>
+			<p>Authentication Type</p>
+                        <select name="authType1">
+			    {% if auth == "NULL" %} <option disabled selected value> -- Select -- </option> {% endif %}
+                            <option {% if auth == "Passphrase" %} selected {% endif %} value="Passphrase">Username & Password</option>
+                            <option {% if auth == "Email" %} selected {% endif %} value="Email">Email</option>
+                            <option {% if auth == "None" %} selected {% endif %} value="None">None</option>
+                        </select>
+		    
+		        <div class= "bodydiv" div id = "submitDiv">
+                            <input type="submit" name="userform1" value="OK"></input>
+                        </div>
+		    </form>
+		{% endif %}
+		
+		<form action="{{ url_for('filluserform' , form='DE')}}" vname="userCreateForm" id="detailsLeft" method=post>
+		    {% if auth != "NULL"%} 
+		        <p>Name</p>
+                        <input type="text" name="name1" placeholder="Enter Name" maxlength="40" > </input>
+		    {% endif %}
+
+	            {% if auth == "Passphrase" or auth == "Email" or account == "Admin" %}    
+                        <p>Email</p>
+                        <input type="text" name="email1" placeholder="Enter Email" onkeyup="checkForm()" maxlength="40"> </input>
+		    {% endif %}
+	
+		    {% if account == "Client" and auth != "NULL" %} 
+		        <p>Assign Group</p>
+                        <select name="groupId1">
+                            <option value="-1" selected>No group</option>
+                            {% for group in groups %}
+			        <option value="{{ group['ID'] }}">{{ group['Name'] }}</option>
+			    {% endfor %}
+                        </select>
+
+                        {% if nodes %} 
+                            <p>Assign Node</p>
+                            <select name="node1">
+                                {% for node in nodes %}
+                                    <option value="{{ node["ID"] }}">{{ node["Name"] }}</option>
+                                {% endfor %}                    	
+                            </select>
+                        {% endif %}
+
+                        <p>Expiry (YYYY-MM-DD:HHMM)</p>
+                        <input type="text" name="expiry1" placeholder="Enter Expiry Date" maxlength="40" > </input>
+                        <br  />
+                        <br  />
+		    {% endif %}
+
+		    {% if postback > 0 and auth != "NULL" %}
+                        <div class= "bodydiv" div id = "submitDiv">
+                         <input type="submit" name="userform1" value="Send"></input>
+                        </div>
+		    {% endif %}
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

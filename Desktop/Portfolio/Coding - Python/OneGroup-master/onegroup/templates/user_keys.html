@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block body %}
+<body>
+    <center>
+        <div class="contentDiv">
+            <h3> Welcome, {{ username }} </h3>
+            <img src="{{ url_for('static', filename = 'logoblue.png') }}"
+                width="150" height="75"/>
+            <!--find if keys downloaded!-->
+            <!--if keys are not downloaded!-->
+            <br  \> 
+            {% if distributed == false %} <!--if username.HasKeys!-->
+            <div id="loginDiv">
+                   <h3> Download Key</h3>
+                   <a href="{{ url_for('userkey', hash=hash) }}" download><button onclick = "hideButton()" class='downloadButton' id= "testButton">Download</button></a>
+                   <br  />
+                   <br  />
+               </div>
+            {% else %}
+                <br  \>
+                <a href = "{{ url_for('create_request', request = 1, name = username) }}"><button>Lost Certificate? Request New Keys</button></a>
+            {% endif %}
+            <br  \>
+            <br  \>
+            <a href = "{{ url_for('logout') }}"><button>Log Out</button></a>
+            <br  \>
+            <a href = "/password"> <h3> Reset Password </h3></a>
+        </div>
+    </center>
+</body>
+{% endblock %}

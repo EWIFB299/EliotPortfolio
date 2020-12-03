@@ -1,0 +1,106 @@
+#! /bin/bash
+
+#####
+# userman: The onegroup openvpn user management tool
+#
+# Params
+# $1 : action to perform (add, del, dist) 
+# $2 : Client's name
+#
+# Usage:
+#   userman <action> <client>
+#
+#####
+
+#GLOBALS
+HOME=/usr/local/onegroup/keys
+
+usage () {
+    echo "Usage: userman <add|del|dist> <client>";
+    exit 1;  
+}
+
+create () {
+    #Creates a client's keys and certificates  
+    #Params: $1 The clients directory
+
+    #Create client's filename and dir
+    CLIENT_DIR=$OG_openvpn_keys/$1;
+    mkdir $CLIENT_DIR;
+
+    #Create client key/cert pair
+    cd $OG_openvpn_ersa;
+    source ./vars;
+    ./pkitool $1;
+
+    #Create config variables
+    CLIENT_CONF="$1.ovpn";
+    CLIENT_CERT="$1.crt";
+    CLIENT_KEY="$1.key";
+    
+    CERT_CONTENTS=`cat $OG_openvpn_keys/$CLIENT_CERT`;
+    KEY_CONTENTS=`cat $OG_openvpn_keys/$CLIENT_KEY`;
+
+    #Create new config file and change key and cert sections
+    cp $OG_openvpn_client_config $CLIENT_DIR/$CLIENT_CONF;
+
+    sudo sed -i -e 's,ca ca.crt,#ca ca.crt ,g' $CLIENT_DIR/$CLIENT_CONF;
+    sudo sed -i -e 's,cert client.crt,#cert client.crt,g' $CLIENT_DIR/$CLIENT_CONF;
+    sudo sed -i -e 's,key client.key,#key client.key,g' $CLIENT_DIR/$CLIENT_CONF;
+
+    #Appends keys and certs to config file
+    printf "<cert>\n$CERT_CONTENTS\n</cert>\n" >> $CLIENT_DIR/$CLIENT_CONF 
+    printf "<key>\n$KEY_CONTENTS\n</key>\n" >> $CLIENT_DIR/$CLIENT_CONF 
+
+    #create directory and move key/certs into it
+    mv $OG_openvpn_keys/$CLIENT_CERT $OG_openvpn_keys/$CLIENT_KEY $OG_openvpn_keys/$CLIENT_CSR $CLIENT_DIR;
+
+    #Move config to the distrubed keys folder
+    cp $CLIENT_DIR/$CLIENT_CONF $HOME
+}
+
+delete () {
+    #Deletes a client's keys and certificates  
+    #Params: $1 The clients directory
+    
+    #Source variables
+    cd $OG_openvpn_ersa;
+    source ./vars;
+
+    #Move client's cert to a reachable directory
+    mv $OG_openvpn_keys/$1/$1.crt $OG_openvpn_keys
+
+    #Revoke cert
+    ./revoke-full $1
+
+    #Remove keys and certs
+    rm $OG_openvpn_keys/$1 -rf;
+    rm $OG_openvpn_keys/$1.crt -rf;
+}
+
+
+###### MAIN ######
+
+#Check the amount of arguments passed
+if [ $# -ne 2 ]; then
+    usage;    
+fi
+
+case $1 in
+    "add")
+        create $2;
+        ;;
+    "del")
+        delete $2;
+        ;;
+    "dist")
+        distribute $2;
+        ;;
+    *)
+        usage;
+        ;;
+esac
+
+#Exit gracefully
+exit 0;
+

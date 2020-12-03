@@ -1,0 +1,457 @@
+*   {
+    font-family: Tahoma, sans-serif;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+statustext    {
+    font-weight: bold;
+    padding: 3px 3px 3px 0;
+    margin-left: 10%;
+    /* color: #db2727; */
+    color: #37f925;
+}
+
+
+.tableScroll {
+    overflow:scroll;
+    height:200px;
+}
+
+td    {
+    background-color: #e0e0e0;
+    font-size: 12px;
+}
+
+tr:first-child    {
+    background-color: #00979d;
+}
+
+th    {
+    width:10%;
+    color: #ffffff;
+}
+
+button    {
+    display:inline-block;
+    color: #ffffff;
+    background-color: #00979d;
+    font-weight: bolder;
+    border: none;
+    padding: 10px 20px;
+    font-size: 11px;
+    min-width: 76px;
+    margin-bottom: 2px;
+}
+
+button:hover    {
+    color:#000000;
+    background-color: #ffffff;
+}
+
+.button-wide    {
+    width: 100%;
+}
+
+.button-table{
+    width: 100%;
+}
+
+.downloadButton{
+    width: 100%;
+    height:100%;
+}
+
+.contentPush
+{
+    min-height: 70%;
+    min-height: -webkit-calc(100% - 320px);
+    min-height: -moz-calc(100% - 320px);
+    min-height: calc(100% - 320px);
+    margin: 0 10% 0 10%
+}
+
+.flashes li{
+  list-style-type: none;
+  color: #ff0000;
+  margin-left: -3%;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+footer    {
+    color: #ffffff;
+    clear: both;
+    text-align: center;
+    background-color: #006e72;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 5px 0 5px 0;
+    margin-bottom: -8px;
+}
+
+footer a{
+    color: #ffffff;
+    text-decoration:none;
+}
+
+#headContainer    {
+    margin-left: -8px;
+    margin-top: -8px;
+    height:140px;
+    clear:both;
+    background-color: #00979d;
+    color: #ffffff;
+}
+
+#headCenter h1    {
+   font-size: 30pt;
+   letter-spacing: -0.05em;
+   z-index: 1;
+   color: #ffffff;
+   text-align: center;
+   padding-top: 1%;
+}
+#headCenter p {
+  font-size: 12pt;
+}
+
+#headCenter h1 a:link    {
+    text-decoration: none;
+    border-bottom: 3px solid #ffffff;
+}
+
+#headCenter h1 a:hover    {
+   border-bottom-color: green;
+}
+
+#headLeft    {
+    margin-right: 4%;
+    vertical-align: bottom;
+    width:30%;
+    height: inherit;
+    float:left;
+}
+
+#headCenter p    {
+    margin-top: -5%;
+    text-align: center;
+}
+
+#headLeft img    {
+    position: relative;
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#headCenter    {
+    margin-right: 4%;
+    width:30%;
+    height: inherit;
+    float:left;
+}
+
+#headRight    {
+    margin-left: 2%;
+    width:30%;
+    text-align: left;
+    height: inherit;
+    float:left;
+}
+
+#headRight button    {
+    background-color: #006e72;
+    margin-left: 5%;
+}
+
+#headRight a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#headRight h5 {
+    margin-top: 8px;
+    margin-left: 20%;
+    font-size: 16px;
+}
+
+#headRight p {
+  font-size: 11pt;
+  padding-top: 5%;
+  margin-bottom: -1%;
+}
+
+#headRight h5 a{
+  margin-left:7%;
+}
+
+#headRight .inner {
+  float:left;
+  width:50%;
+  height:50%;
+}
+
+#headRight .inner button{
+	margin-top:10px;
+}
+
+#approveButton{
+  display:inline-block;
+  color: #ffffff;
+  font-weight: bolder;
+  border: none;
+  padding: 10px 20px;
+  font-size: 11px;
+  margin-left:25%;
+ background-color: #37f925;
+}
+
+.declineButton:hover{
+    background-color: #911818 !important;
+  }
+
+.declineButton{
+  display:inline-block;
+  color: #ffffff;
+  font-weight: bolder;
+  border: none;
+  padding: 10px 20px;
+  font-size: 11px;
+  background-color: #db2727 !important; 
+  width:100%;
+}
+
+#approveButton:hover{
+  background-color: #1e8214;
+}
+
+
+#hiddenInput{
+  display: none;
+}
+
+input#exportSubmit{
+    display: hidden;
+}
+
+nav ul    {
+    margin-left: -8px;
+    margin-top: -5%;
+    background-color: #006e72;
+    text-align: center;
+    list-style: none;
+    overflow: auto;
+    width: 100%;
+    padding-right: 3px;
+}
+
+nav ul li a:hover    {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+nav ul li a    {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bolder;
+    display: inline-block;
+    float: left;
+    width: 24%;
+    text-decoration: none;
+}
+
+nav ul li img   {
+margin-bottom: -7px;
+padding-right: 7px;
+}
+
+body .contentDiv    {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+body .contentDiv h1    {
+    padding-top: 22%;
+    font-size: 16pt;
+}
+
+body .contentDiv p   {
+  font-size: 10pt;
+}
+
+body .contentDiv h2   {
+  font-size: 14pt;
+}
+
+body .contentDiv #bodydiv    {
+    text-align: center;
+}
+
+body .contentDiv .bodydiv #SecPolicy    {
+
+}
+
+body .contentDiv .bodydiv #UserPaths    {
+
+}
+
+body .contentDiv #bodydivleft    {
+    float: left;
+    margin-right: 10%;
+    width: 45%;
+}
+
+body .contentDiv #bodydivright    {
+    float: left;
+    width: 45%;
+}
+
+body .contentDiv #logSettings    {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 60%;
+    text-align: center;
+}
+
+body .contentDiv #logSettings #infoDiv   {
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+
+body .contentDiv #logSettings #exportSettings    {
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+
+body .contentDiv #midDiv    {
+    width: 100%;
+}
+
+body .contentDiv #formDivleft    {
+    display: none;
+    float: left;
+    margin-left: -10%;
+    text-align: center;
+    width: 50%;
+}
+
+body .contentDiv #formDivleft  {
+    display: none;
+    float: left;
+    margin-left: -10%;
+    text-align: center;
+    width: 50%;
+}
+body .contentDiv #formDivleft #submitDiv  {
+    display: none;
+}
+
+body .tableTitleDiv    {
+    background-color: #00979d;
+    width: 33%;
+    float: left;
+}
+
+body .tableContentDiv    {
+    width: 33%;
+    float: left;
+}
+
+body center .loginDiv {
+  margin-bottom: 5%;
+}
+
+#t{
+  display: none;  
+}
+
+#indexSplit{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+
+#indexSplitLeft{
+    float: left;
+    width: 20%;
+}
+
+#indexSplitLeft button{
+    margin-bottom: 10%;
+    margin-bottom: 10%;
+    min-width: 100px;
+}
+
+#indexSplitRight{
+    float: left;
+    width: 75%;
+}
+
+#indexSplitRight img{
+    padding-top:2%;
+    margin-left: 4%;
+    float: left;
+}
+
+
+#indexSplitRight h2{
+    margin-left:5%;
+    float:left;
+}
+
+input    {
+    margin-bottom: 2%;
+}
+
+input[type="submit"]{
+    margin-top: 1%;
+    color: #ffffff;
+    background-color: #00979d;
+    font-weight: bolder;
+    border: none;
+    padding: 10px 20px;
+    font-size: 11px;
+    min-width: 76px;
+    margin-bottom: 2px;
+}
+
+input[type="submit"]:hover    {
+    color:#000000;
+    background-color: #ffffff;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: #006e72;
+}
+
+.bar:hover {
+  fill: #00979d ;
+}
+
+.x.axis path {
+  display: none;
+}

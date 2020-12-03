@@ -1,0 +1,41 @@
+#/bin/bash
+
+#####
+# tabler: The onegroup openvpn iptables management tool
+#
+#
+# Usage:
+#   tabler <rules>
+#
+#####
+
+usage () {
+    echo "Usage: tabler <rules>";
+    exit 1;  
+}
+
+###### MAIN ######
+
+#Check the amount of arguments passed
+if [ $# -lt 1 ]; then
+    usage;    
+fi
+
+#Clear all rules
+iptables -P INPUT ACCEPT
+iptables -P FORWARD ACCEPT
+iptables -P OUTPUT ACCEPT
+
+iptables -t nat -F
+iptables -t mangle -F
+iptables -F
+iptables -X
+
+#Loop over rules
+for rule in "$@"; do
+    iptables $rule
+done
+
+#Exit gracefully
+exit 0;
+
